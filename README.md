@@ -1,7 +1,6 @@
-# MATH10017
-Algorithms and Programming in C(++) and R
+# MATH10017 Algorithms and Programming in C(++) and R
 
-TL,DR; This unit teaches features of C, R and C++ programming languages and is an introductory unit of computer science and basics of programming language. 
+TL,DR; This unit teaches basic language features of C, R and C++. 
 
 **Lecturer**: Song Liu (song.liu@bristol.ac.uk)
 
