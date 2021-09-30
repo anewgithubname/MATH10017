@@ -12,6 +12,16 @@ TL,DR; This unit teaches basic language features of C, R and C++.
 Lecture 1: 
 [Foundation](lecs/lec1.pdf)
 - Note: in the original slides, I used ".o" suffix for the compiled executable file. However, on Linux/Mac, the full name for executable file is ".out". Thanks Jiahao for pointing out. 
+- Answers to Homework: TBA
+
+Lecture 2: 
+Functions
+
+Lecture 3:
+Arrays and Loop
+
+Lecture 4: 
+Pointer and Memory
 
 ## Extra Learning Materials
 
