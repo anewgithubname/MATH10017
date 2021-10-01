@@ -20,4 +20,10 @@ int main() {
   printf("|   \\\n");
   printf("|____\\\n");
 
+  // HW 5
+  printf("%d\n", 'A');
+  printf("%c\n", 65);
+  printf("%c\n", 'A'+1);
+  printf("%c%c%c%c\n", 240, 159, 152, 137);
+
 }
