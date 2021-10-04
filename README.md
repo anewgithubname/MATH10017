@@ -15,7 +15,7 @@ Lecture 1:
 - [Answers to Homework](homework/sol.c)
 
 Lecture 2: 
-Functions
+[Functions](lecs/lec2.pdf)
 
 Lecture 3:
 Arrays and Loop
