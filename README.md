@@ -19,7 +19,7 @@ Lecture 2:
 - Note: There was a typo in Homework 2: write a function takes **3** inputs, x1, x2 and r, not 2 inputs. 
 
 Lecture 3:
-Arrays and Loop
+[Arrays and Loops](lecs/lec3.pdf)
 
 Lecture 4: 
 Pointer and Memory
