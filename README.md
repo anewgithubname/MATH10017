@@ -22,7 +22,7 @@ Lecture 3:
 [Arrays and Loops](lecs/lec3.pdf)
 
 Lecture 4: 
-Pointer and Memory
+Revision Class
 
 ## Extra Learning Materials
 
