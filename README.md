@@ -20,6 +20,7 @@ Lecture 2:
 
 Lecture 3:
 [Arrays and Loops](lecs/lec3.pdf)
+- [Lab3](labs/lab3.zip)
 
 Lecture 4: 
 Revision Class
