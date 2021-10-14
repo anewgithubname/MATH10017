@@ -18,18 +18,18 @@ Click [here](https://uob-my.sharepoint.com/personal/sl9885_bristol_ac_uk/_layout
 
 Click &ldquo;download the entire zip file&rdquo;.
 
-![img](./Cap5.png)
+![img](./cap5.PNG)
 
 Save the file.
 
-![img](./Cap6.png)
+![img](./cap6.PNG)
 
 Wait until the download is complete before trying to open it.
 If it says &ldquo;Download Failed&rdquo;, click the circular arrow to restart the download.
 
 Open the file in the file explorer:
 
-![img](./Cap8.png)
+![img](./cap8.PNG)
 
 
 <a id="orgc0e3084"></a>
@@ -38,7 +38,7 @@ Open the file in the file explorer:
 
 Right click on the labpack and unzip it using 7zip (choose &ldquo;Extract here&rdquo;):
 
-![img](./Cap10.png)
+![img](./cap10.PNG)
 
 It will take about 5 minutes to unzip.
 
@@ -49,17 +49,17 @@ It will take about 5 minutes to unzip.
 
 Open the labpack:
 
-![img](./Cap12.png)
+![img](./cap12.PNG)
 
 Double-click on the &ldquo;lab<sub>1</sub>&rdquo; .bat file to launch VSCode:
 
-![img](./Cap13.png)
+![img](./cap13.PNG)
 
 (If it says you can&rsquo;t open it, click &ldquo;more info&rdquo;, then say &ldquo;open anyway&rdquo;.)
 
 Accept the trust settings:
 
-![img](./Cap14.png)
+![img](./cap14.PNG)
 
 
 <a id="orgf4bff3e"></a>
@@ -70,20 +70,20 @@ Double click on &ldquo;main.c&rdquo; to see the code for &ldquo;Hello, world!&rd
 
 From the top menu, choose &ldquo;Start Debugging&rdquo; from the &ldquo;Run&rdquo; category:
 
-![img](./Cap16.png)
+![img](./cap16.PNG)
 
 Choose &ldquo;C++ (GDB/LLDB)&rdquo;:
 
-![img](./Cap17.png)
+![img](./cap17.PNG)
 
 Choose &ldquo;gcc&rdquo;:
 
-![img](./Cap18.png)
+![img](./cap18.PNG)
 
 After a while, you should see a menu on the bottom half of VSCode.
 Select &ldquo;TERMINAL&rdquo; to see the output of the program:
 
-![img](./Cap19.png)
+![img](./cap19.PNG)
 
 
 <a id="orgbce88a6"></a>
@@ -92,12 +92,12 @@ Select &ldquo;TERMINAL&rdquo; to see the output of the program:
 
 Type &ldquo;ls&rdquo; (letter l, not number 1) in the terminal and hit &ldquo;enter&rdquo;:
 
-![img](./Cap20.png)
+![img](./cap20.PNG)
 
 This shows files in the current directory (folder): main.c is the hello world program we compiled, and main.exe is the program that the compiler output.
 
 To compile from the command line, type `gcc main.c -o main.exe` in the terminal and hit enter.
 To run the program, type `./main.exe`.
 
-![img](./Cap21.png)
+![img](./cap21.PNG)
 
