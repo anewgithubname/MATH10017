@@ -1,11 +1,12 @@
 
 # Table of Contents
 
-1.  [Download the labpack](#orgfc940b1)
-2.  [Extract the zip file using 7zip](#orgc0e3084)
-3.  [Using the labpack](#org4c5f3b0)
-4.  [Compiling &ldquo;Hello, world!&rdquo;](#orgf4bff3e)
-5.  [Compiling from the terminal](#orgbce88a6)
+- [Table of Contents](#table-of-contents)
+- [Download the labpack](#download-the-labpack)
+- [Extract the zip file using 7zip](#extract-the-zip-file-using-7zip)
+- [Using the labpack](#using-the-labpack)
+- [Compiling &ldquo;Hello, world!&rdquo;](#compiling-hello-world)
+- [Compiling from the terminal](#compiling-from-the-terminal)
 
 
 
@@ -17,18 +18,18 @@ Click [here](https://uob-my.sharepoint.com/personal/sl9885_bristol_ac_uk/_layout
 
 Click &ldquo;download the entire zip file&rdquo;.
 
-![img](./cap5.png)
+![img](./Cap5.png)
 
 Save the file.
 
-![img](./cap6.png)
+![img](./Cap6.png)
 
 Wait until the download is complete before trying to open it.
 If it says &ldquo;Download Failed&rdquo;, click the circular arrow to restart the download.
 
 Open the file in the file explorer:
 
-![img](./cap8.png)
+![img](./Cap8.png)
 
 
 <a id="orgc0e3084"></a>
@@ -37,7 +38,7 @@ Open the file in the file explorer:
 
 Right click on the labpack and unzip it using 7zip (choose &ldquo;Extract here&rdquo;):
 
-![img](./cap10.png)
+![img](./Cap10.png)
 
 It will take about 5 minutes to unzip.
 
@@ -48,17 +49,17 @@ It will take about 5 minutes to unzip.
 
 Open the labpack:
 
-![img](./cap12.png)
+![img](./Cap12.png)
 
 Double-click on the &ldquo;lab<sub>1</sub>&rdquo; .bat file to launch VSCode:
 
-![img](./cap13.png)
+![img](./Cap13.png)
 
 (If it says you can&rsquo;t open it, click &ldquo;more info&rdquo;, then say &ldquo;open anyway&rdquo;.)
 
 Accept the trust settings:
 
-![img](./cap14.png)
+![img](./Cap14.png)
 
 
 <a id="orgf4bff3e"></a>
@@ -69,20 +70,20 @@ Double click on &ldquo;main.c&rdquo; to see the code for &ldquo;Hello, world!&rd
 
 From the top menu, choose &ldquo;Start Debugging&rdquo; from the &ldquo;Run&rdquo; category:
 
-![img](./cap16.png)
+![img](./Cap16.png)
 
 Choose &ldquo;C++ (GDB/LLDB)&rdquo;:
 
-![img](./cap17.png)
+![img](./Cap17.png)
 
 Choose &ldquo;gcc&rdquo;:
 
-![img](./cap18.png)
+![img](./Cap18.png)
 
 After a while, you should see a menu on the bottom half of VSCode.
 Select &ldquo;TERMINAL&rdquo; to see the output of the program:
 
-![img](./cap19.png)
+![img](./Cap19.png)
 
 
 <a id="orgbce88a6"></a>
@@ -91,12 +92,12 @@ Select &ldquo;TERMINAL&rdquo; to see the output of the program:
 
 Type &ldquo;ls&rdquo; (letter l, not number 1) in the terminal and hit &ldquo;enter&rdquo;:
 
-![img](./cap20.png)
+![img](./Cap20.png)
 
 This shows files in the current directory (folder): main.c is the hello world program we compiled, and main.exe is the program that the compiler output.
 
 To compile from the command line, type `gcc main.c -o main.exe` in the terminal and hit enter.
 To run the program, type `./main.exe`.
 
-![img](./cap21.png)
+![img](./Cap21.png)
 
