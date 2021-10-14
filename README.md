@@ -5,7 +5,7 @@ TL,DR; This unit teaches basic language features of C, R and C++.
 **Lecturer**: Song Liu (song.liu@bristol.ac.uk)
 
 **Teaching Assistant**: Brendan Murphy (brendan.murphy@bristol.ac.uk)
-
+## [How to Install Labpack](labpack-howto/labpack-howto.md)
 -----------
 ## Lecture Materials
 
@@ -25,7 +25,6 @@ Lecture 4:
 Revision Class
 
 ## Extra Learning Materials
-
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
    1. [An interview of Brian](https://www.youtube.com/watch?v=de2Hsvxaf8M) on the history of C.  
