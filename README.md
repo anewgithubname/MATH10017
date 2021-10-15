@@ -17,10 +17,12 @@ Lecture 1:
 Lecture 2: 
 [Functions and Recursion](lecs/lec2.pdf)
 - Note: There was a typo in Homework 2: write a function takes **3** inputs, x1, x2 and r, not 2 inputs. 
+- [Lab2 Solutions](homework/sol2.c)
 
 Lecture 3:
 [Arrays and Loops](lecs/lec3.pdf)
 - [Lab3](labs/lab3.zip)
+- [Lab3 Solutions](homework/sol3.c)
 
 Lecture 4: 
 Revision Class
