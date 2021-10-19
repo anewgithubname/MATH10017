@@ -26,6 +26,7 @@ Lecture 3:
 
 Lecture 4: 
 [Revision Class](lecs/revision.pdf)
+- [Lab4](labs/lab4.zip)
 
 ## Extra Learning Materials
 
