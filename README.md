@@ -25,7 +25,7 @@ Lecture 3:
 - [Lab3 Solutions](homework/sol3.c)
 
 Lecture 4: 
-Revision Class
+[Revision Class](lecs/revision.pdf)
 
 ## Extra Learning Materials
 
