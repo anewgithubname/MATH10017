@@ -8,7 +8,7 @@ TL,DR; This unit teaches basic language features of C, R and C++.
 ## [How to Install Labpack](labpack-howto/labpack-howto.md), [Commandline Tips](commandline_tips/tips.md)
 
 -----------
-## Lecture Materials (Download slides before reading them!)
+## Lecture Materials (Download slides to your PC before reading them!)
 
 Lecture 1: 
 [Foundation](lecs/lec1.pdf)
