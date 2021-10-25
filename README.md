@@ -28,6 +28,11 @@ Lecture 3:
 Lecture 4: 
 [Revision Class](lecs/revision.pdf)
 - [Lab4](labs/lab4.zip)
+- [Lab4 Solutions](homework/sol4.c)
+
+Lecture 5: 
+[Pointer and Memory](lecs/lec4.pdf)
+- [Lab4](labs/lab5.zip)
 
 ## Extra Learning Materials
 
