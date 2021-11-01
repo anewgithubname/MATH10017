@@ -35,6 +35,10 @@ Lecture 5:
 - [Lab5](labs/lab5.zip)
 - [Tutorial](lecs/tutorial.pdf), [Tutorial Code](labs/tutorial.zip)
 
+Lecture 6: 
+[Pointer and Memory 2](lecs/lec5.pdf)
+
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
