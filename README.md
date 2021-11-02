@@ -33,10 +33,12 @@ Lecture 4:
 Lecture 5: 
 [Pointer and Memory](lecs/lec4.pdf)
 - [Lab5](labs/lab5.zip)
+- [Lab5 Solutions](labs/sol5.c)
 - [Tutorial](lecs/tutorial.pdf), [Tutorial Code](labs/tutorial.zip)
 
 Lecture 6: 
 [Pointer and Memory 2](lecs/lec5.pdf)
+- [Lab6](labs/lab6.zip)
 
 
 ## Extra Learning Materials
