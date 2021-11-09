@@ -42,6 +42,7 @@ Lecture 6:
 
 Lecture 7: 
 [Structure and IO](lecs/lec6.pdf)
+- [Lab7](labs/lab7.zip)
 
 ## Extra Learning Materials
 
