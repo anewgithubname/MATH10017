@@ -39,6 +39,7 @@ Lecture 5:
 Lecture 6: 
 [Pointer and Memory 2](lecs/lec5.pdf)
 - [Lab6](labs/lab6.zip)
+- [Lab6 Solutions](homework/sol6.c)
 
 Lecture 7: 
 [Structure and IO](lecs/lec6.pdf)
