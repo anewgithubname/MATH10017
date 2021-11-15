@@ -45,6 +45,9 @@ Lecture 7:
 [Structure and IO](lecs/lec6.pdf)
 - [Lab7](labs/lab7.zip)
 
+Lecture 8: 
+[Sorting](lecs/lec7.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
