@@ -115,19 +115,6 @@ void multiply(Matrix A, Matrix B, Matrix C)
     }
 }
 
-// Matrix transpose(Matrix M){
-//     Matrix MT = {M.numcol, M.numrow, calloc(M.numcol * M.numrow, sizeof(int)) };
-
-//     for (int i = 0; i < M.numrow; i++)
-//     {
-//         for (int j = 0; j < M.numcol; j++)
-//         {
-//             MT.elements[idx(j,i,MT)] = M.elements[idx(i,j,M)];
-//         }
-//     }
-//     return MT;
-// }
-
 Matrix transpose(Matrix M){
     // Matrix MT = {M.numcol, M.numrow, calloc(M.numcol * M.numrow, sizeof(int)) };
 

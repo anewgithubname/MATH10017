@@ -44,6 +44,7 @@ Lecture 6:
 Lecture 7: 
 [Structure and IO](lecs/lec6.pdf)
 - [Lab7](labs/lab7.zip)
+- [Lab7 Solutions](homework/sol7.c)
 
 Lecture 8: 
 [Sorting](lecs/lec7.pdf)
