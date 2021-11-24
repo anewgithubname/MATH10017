@@ -49,6 +49,7 @@ Lecture 7:
 Lecture 8: 
 [Sorting](lecs/lec7.pdf)
 - I have modified some of the notations in the slides to make them more easily understandable. 
+- [Lab 8 Solutions](homework/sol8.c)
 
 Lecture 9: 
 [OOP and C++](lecs/lec8.pdf)
