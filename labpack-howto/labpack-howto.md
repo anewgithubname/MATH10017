@@ -14,7 +14,7 @@
 
 # Download the labpack
 
-Click [here](https://uob-my.sharepoint.com/personal/sl9885_bristol_ac_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fsl9885%5Fbristol%5Fac%5Fuk%2FDocuments%2FTeaching%2FTeaching%5F2021%2D2022%2FLabPack%5FFull%2Ezip&parent=%2Fpersonal%2Fsl9885%5Fbristol%5Fac%5Fuk%2FDocuments%2FTeaching%2FTeaching%5F2021%2D2022&originalPath=aHR0cHM6Ly91b2ItbXkuc2hhcmVwb2ludC5jb20vOnU6L2cvcGVyc29uYWwvc2w5ODg1X2JyaXN0b2xfYWNfdWsvRVY2RHpGOFFPQ3RQaUlmczFOVk9HVWdCTjRiT1lRREVWdzNaMHVfUXlacEJRdz9ydGltZT1zQ1ZwYm5lTzJVZw) to find the labpack on sharepoint; you may have to enter your ID and password.
+Click [here](https://uob-my.sharepoint.com/:u:/g/personal/sl9885_bristol_ac_uk/EV6DzF8QOCtPiIfs1NVOGUgBN4bOYQDEVw3Z0u_QyZpBQw?e=kyaC6t) to find the labpack on sharepoint; you may have to enter your ID and password.
 
 Click &ldquo;download the entire zip file&rdquo;.
 
