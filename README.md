@@ -54,6 +54,8 @@ Lecture 8:
 Lecture 9: 
 [OOP and C++](lecs/lec8.pdf)
 - [Lab9](labs/lab9.zip)
+- [Tutorial](lecs/tutorial2.pdf)
+- [Code for Tutorial](lec/tutorial2.zip)
 
 ## Extra Learning Materials
 
