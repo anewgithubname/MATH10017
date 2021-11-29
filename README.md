@@ -60,7 +60,7 @@ Lecture 9:
 Lecture 10:
 OOP and C++ (2) and 
 - I have appended the second part of OOP&C++ to the slides in lecture 9. 
-[Final Project](lecs/lec9.pdf)
+- [Final Project](lecs/lec9.pdf)
 
 ## Extra Learning Materials
 
