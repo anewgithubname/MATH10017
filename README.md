@@ -57,6 +57,11 @@ Lecture 9:
 - [Tutorial](lecs/tutorial2.pdf)
 - [Code for Tutorial](labs/tutorial2.zip)
 
+Lecture 10:
+OOP and C++ (2) and 
+- I have appended the second part of OOP&C++ to the slides in lecture 9. 
+[Final Project](lecs/lec9.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
