@@ -58,9 +58,8 @@ Lecture 9:
 - [Code for Tutorial](labs/tutorial2.zip)
 
 Lecture 10:
-OOP and C++ (2) and 
+OOP and C++ (2) and [Final Project](lecs/lec9.pdf)
 - I have appended the second part of OOP&C++ to the slides in lecture 9. 
-- [Final Project](lecs/lec9.pdf)
 
 ## Extra Learning Materials
 
