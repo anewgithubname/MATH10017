@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <limits.h>
 
 int find_minimum(int len, double array[len]){
-    double min = 999; 
+    double min = INT_MAX; 
     int idx = -1; 
     for (int i = 0; i < len; i++)
     {
@@ -17,11 +18,14 @@ int find_minimum(int len, double array[len]){
 void find_top3(int len, double array[len], double top[3]){
     int top_index = find_minimum(len, array);
     top[0] = array[top_index];
-    array[top_index] = 999;
+    // INT_MAX is the maximum value of a 32-bit integer
+    // printf("%d\n", INT_MAX);
+    // prints out 2147483647
+    array[top_index] = INT_MAX;
 
     top_index = find_minimum(len, array);
     top[1] = array[top_index];
-    array[top_index] = 999;
+    array[top_index] = INT_MAX;
     
     top_index = find_minimum(len, array);
     top[2] = array[top_index];
@@ -45,7 +49,7 @@ void main(){
 
     // homework 2
     printf("\nhomework 2--------------\n");
-    double top3[] = {999,999,999};
+    double top3[] = {INT_MAX,INT_MAX,INT_MAX};
     find_top3(5, vec, top3);
     printf("Three smallest values are %.5f %.5f %.5f\n", top3[0],top3[1],top3[2]);
 
