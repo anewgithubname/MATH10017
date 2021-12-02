@@ -61,6 +61,7 @@ Lecture 10:
 OOP and C++ (2) and [Final Project](lecs/lec9.pdf)
 - I have appended the second part of OOP&C++ to the slides in lecture 9. 
 - [Skeleton code for the final project](labs/lab10.zip)
+- <span style="color:red">Skeleton code is last updated on 3.35pm, 2nd Dec. </span>
 
 ## Extra Learning Materials
 
