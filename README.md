@@ -55,6 +55,8 @@ Lecture 9:
 [OOP and C++](lecs/lec8.pdf)
 - [Lab9](labs/lab9.zip)
 - [Lab 9 Solutions](homework/sol9.cpp)
+- [Lab9_2](labs/lab9_2.zip) **new!**
+- [Lab 9_2 Solutions](homework/sol9_2.cpp) **new!**
 - [Tutorial](lecs/tutorial2.pdf)
 - [Code for Tutorial](labs/tutorial2.zip)
 
