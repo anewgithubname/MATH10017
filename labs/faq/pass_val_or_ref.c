@@ -18,7 +18,7 @@ void zeros_1(Matrix m){
     m.elements = calloc(m.numrow * m.numcol, sizeof(int));
 }
 
-// pass by reference, works! 
+// pass a *pointer* to the function, works! 
 void zeros_2(Matrix *pm){
     pm->numrow = 2;
     pm->numcol = 2;
