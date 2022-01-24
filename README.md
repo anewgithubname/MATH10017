@@ -67,6 +67,9 @@ OOP and C++ (2) and [Final Project](lecs/lec9.pdf)
    - <span style="color:red">Skeleton code was last updated on 3.35pm, 2nd Dec. </span>
    - [Sample output with visualization](labs/sample_output.txt).
 
+Lecture 11: 
+[Introduction to R](lecs/lec10.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
