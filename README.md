@@ -69,6 +69,7 @@ OOP and C++ (2) and [Final Project](lecs/lec9.pdf)
 
 Lecture 11: 
 [Introduction to R](lecs/lec10.pdf)
+- [Lab11](labs/lab11.zip)
 
 ## Extra Learning Materials
 
