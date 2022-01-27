@@ -69,6 +69,7 @@ OOP and C++ (2) and [Final Project](lecs/lec9.pdf)
 
 Lecture 11: 
 [Introduction to R](lecs/lec10.pdf)
+- [Interpreter vs Compiler (youtube video)](https://www.youtube.com/watch?v=e4ax90XmUBc)
 - [Lab11](labs/lab11.zip)
 
 ## Extra Learning Materials
@@ -78,5 +79,6 @@ Lecture 11:
 2. [Wikibooks: C Programming](https://en.wikibooks.org/wiki/C_Programming). 
 3. [COMS10008: Imperative Programming](http://people.cs.bris.ac.uk/~ian//COMS10008/)
    1. An excellent unit use to be taught by Dr. Ian Holyer in Computer Science department. 
-
 4. [CS50](https://www.youtube.com/c/cs50) is Harvard University's introductory course to computer science and the art of programming. 
+5. [The Art of R Programming](https://www.oreilly.com/library/view/the-art-of/9781593273842/), a good reference book for R programming. 
+6. [Introductory Statistics with R](https://link.springer.com/book/10.1007/978-0-387-79054-1), an introductory book for both statistics and R programming. 
