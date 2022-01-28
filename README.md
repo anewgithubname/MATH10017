@@ -71,6 +71,7 @@ Lecture 11:
 [Introduction to R](lecs/lec10.pdf)
 - [Interpreter vs Compiler (youtube video)](https://www.youtube.com/watch?v=e4ax90XmUBc)
 - [Lab11](labs/lab11.zip)
+- [Gradient Descent](lec/tutorial3.pdf)
 
 ## Extra Learning Materials
 
