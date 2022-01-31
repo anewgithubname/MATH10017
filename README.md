@@ -71,7 +71,7 @@ Lecture 11:
 [Introduction to R](lecs/lec10.pdf)
 - [Interpreter vs Compiler (youtube video)](https://www.youtube.com/watch?v=e4ax90XmUBc)
 - [Lab11](labs/lab11.zip), [solution in R](homework/sol11.R), [solution in C](homework/sol11.c)
-- [Gradient Descent](lecs/tutorial3.pdf), [solution](homework/tutorial3.R)
+- [Tutorial](lecs/tutorial3.pdf), [solution](homework/tutorial3.R)
 
 Lecture 12:
 [From Scalar Compute to Vector Compute](lecs/lec11.pdf)
