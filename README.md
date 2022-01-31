@@ -73,6 +73,9 @@ Lecture 11:
 - [Lab11](labs/lab11.zip)
 - [Gradient Descent](lecs/tutorial3.pdf)
 
+Lecture 12:
+[From Scalar Compute to Vector Compute](lecs/lec11.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
