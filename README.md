@@ -75,7 +75,7 @@ Lecture 11:
 
 Lecture 12:
 [From Scalar Compute to Vector Compute](lecs/lec11.pdf)
-- [Solution](homework/sol12.R)
+- [Lab 12 Solution](homework/sol12.R)
 
 Lecture 13:
 [Vectorized Code](lecs/lec12.pdf)
