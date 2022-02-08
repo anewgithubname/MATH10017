@@ -17,7 +17,6 @@ Lecture 1:
 
 Lecture 2: 
 [Functions and Recursion](lecs/lec2.pdf)
-- Note: There was a typo in Homework 2: write a function takes **3** inputs, x1, x2 and r, not 2 inputs. 
 - [Lab2 Solutions](homework/sol2.c)
 
 Lecture 3:
@@ -48,27 +47,28 @@ Lecture 7:
 
 Lecture 8: 
 [Sorting](lecs/lec7.pdf)
-- I have modified some of the notations in the slides to make them more easily understandable. 
 - [Lab 8 Solutions](homework/sol8.c)
 
 Lecture 9: 
 [OOP and C++](lecs/lec8.pdf)
 - [Lab9](labs/lab9.zip)
 - [Lab 9 Solutions](homework/sol9.cpp)
-- [Lab9_2](labs/lab9_2.zip) **new!**
-- [Lab 9_2 Solutions](homework/sol9_2.cpp) **new!**
+- [Lab9_2](labs/lab9_2.zip) 
+- [Lab 9_2 Solutions](homework/sol9_2.cpp) 
 - [Tutorial](lecs/tutorial2.pdf)
 - [Code for Tutorial](labs/tutorial2.zip)
 
 Lecture 10:
-OOP and C++ (2) and [Final Project](lecs/lec9.pdf)
-- I have appended the second part of OOP&C++ to the slides in lecture 9. 
+OOP and C++ (2), see slides in lecture 9. 
+- [Final Project](lecs/lec9.pdf)
    - [Sample output](labs/sample_output.txt).
 
 Lecture 11: 
 [Introduction to R](lecs/lec10.pdf)
 - [Interpreter vs Compiler (youtube video)](https://www.youtube.com/watch?v=e4ax90XmUBc)
-- [Lab11](labs/lab11.zip), [solution in R](homework/sol11.R), [solution in C](homework/sol11.c)
+- [Lab11](labs/lab11.zip), 
+- [Lab 11 solution in R](homework/sol11.R),
+- [Lab 11 solution in C](homework/sol11.c)
 - [Tutorial](lecs/tutorial3.pdf), [solution](homework/tutorial3.R)
 
 Lecture 12:
