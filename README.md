@@ -77,8 +77,8 @@ Lecture 12:
 
 Lecture 13:
 [Vectorized Code](lecs/lec12.pdf)
-- [Tutorial](lecs/tutorial4.pdf) 
-- [Solution](homework/sol13.R)
+- [Lab 13 Solution](homework/sol13.R)
+- [Tutorial](lecs/tutorial4.pdf), [Solution](homework/tutorial4.R)
 
 ## Extra Learning Materials
 
