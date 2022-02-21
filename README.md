@@ -80,6 +80,9 @@ Lecture 13:
 - [Lab 13 Solution](homework/sol13.R)
 - [Tutorial](lecs/tutorial4.pdf), [Solution](homework/tutorial4.R)
 
+Lecture 14: 
+[Additional Vector/Matrix Ops](lecs/lec13.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
