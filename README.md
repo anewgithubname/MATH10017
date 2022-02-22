@@ -61,6 +61,7 @@ Lecture 9:
 Lecture 10:
 OOP and C++ (2), see slides in lecture 9. 
 - [Final Project](lecs/lec9.pdf)
+   - [Solution (NEW!)](homework/sol10.c)
    - [Sample output](labs/sample_output.txt).
 
 Lecture 11: 
