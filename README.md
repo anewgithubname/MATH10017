@@ -82,7 +82,7 @@ Lecture 13:
 
 Lecture 14: 
 [Additional Vector/Matrix Ops](lecs/lec13.pdf)
-- [Lab 14, skeleton code](labs/lab14.R)
+- [Lab 14, skeleton code](labs/lab14.R), [Video 1](labs/lab14_1.mp4), [Video 2](labs/lab14_2.mp4)
 
 ## Extra Learning Materials
 
