@@ -87,6 +87,9 @@ Lecture 14:
 - Note: ```||``` and ```&&``` are scalar "or" and "and" operators. ```|``` and ```&``` are vector logical "or" and "and" operators that operates on each elements of the vector. See ```help("|")```. 
 - [Tutorial](lecs/tutorial5.pdf)
 
+Lecture 15: 
+[List and Functional Programming](lecs/lec14.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
