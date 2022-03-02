@@ -66,7 +66,7 @@ Write a function `diff2` that takes two scalars $a,b$, and compute $(a-b)^2$:
 
 `outer(X,Y,FUN)` applies function `FUN` two all pairs of elements in `X` and `Y`. In other words, it computes a matrix $D$, $D_{i,j} = \mathrm{fun}(X_i, Y_j), \forall i,j$.
 
-Now use `outer` and `diff2`, compute a matrix $D^{(1)}$, $D_{i,j}^{(1)} = \mathrm{diff2}(A_{[i,1]}, Y_{[j,1]})^2$.
+Now use `outer` and `diff2`, compute a matrix $D^{(1)}$, $D_{i,j}^{(1)} = \mathrm{diff2}(A_{[i,1]}, B_{[j,1]})$.
 
 ```{r}
 #type your code here
