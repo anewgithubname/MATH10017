@@ -85,7 +85,7 @@ Lecture 14:
 [Additional Vector/Matrix Ops and Graphics 101](lecs/lec13.pdf)
 - [Lab 14, skeleton code](labs/lab14.R), [Video 1](labs/lab14_1.mp4), [Video 2](labs/lab14_2.mp4), [solution task1](homework/sol14.R), [solution task2](homework/sol14_2.R)
 - Note: ```||``` and ```&&``` are scalar "or" and "and" operators. ```|``` and ```&``` are vector logical "or" and "and" operators that operates on each elements of the vector. See ```help("|")```. 
-- [Tutorial](lecs/tutorial5.pdf)
+- [Tutorial](lecs/tutorial5.pdf), [Solution](homework/tutorial5.R)
 
 Lecture 15: 
 [List and Functional Programming](lecs/lec14.pdf)
