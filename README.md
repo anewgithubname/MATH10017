@@ -89,7 +89,7 @@ Lecture 14:
 
 Lecture 15: 
 [List and Functional Programming](lecs/lec14.pdf)
-- [Lab 15](labs/lab15.Rmd)
+- [Lab 15](labs/Lab15.Rmd)
 
 ## Extra Learning Materials
 
