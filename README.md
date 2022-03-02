@@ -83,7 +83,7 @@ Lecture 13:
 
 Lecture 14: 
 [Additional Vector/Matrix Ops and Graphics 101](lecs/lec13.pdf)
-- [Lab 14, skeleton code](labs/lab14.R), [Video 1](labs/lab14_1.mp4), [Video 2](labs/lab14_2.mp4), [solution](homework/sol14.R)
+- [Lab 14, skeleton code](labs/lab14.R), [Video 1](labs/lab14_1.mp4), [Video 2](labs/lab14_2.mp4), [solution task1](homework/sol14.R), [solution task2](homework/sol14_2.R)
 - Note: ```||``` and ```&&``` are scalar "or" and "and" operators. ```|``` and ```&``` are vector logical "or" and "and" operators that operates on each elements of the vector. See ```help("|")```. 
 - [Tutorial](lecs/tutorial5.pdf)
 
@@ -94,7 +94,6 @@ Lecture 15:
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
-   1. [An interview of Brian](https://www.youtube.com/watch?v=de2Hsvxaf8M) on the history of C.  
 2. [Wikibooks: C Programming](https://en.wikibooks.org/wiki/C_Programming). 
 3. [COMS10008: Imperative Programming](http://people.cs.bris.ac.uk/~ian//COMS10008/)
    1. An excellent unit use to be taught by Dr. Ian Holyer in Computer Science department. 
