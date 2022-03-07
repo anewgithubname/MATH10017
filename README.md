@@ -91,6 +91,9 @@ Lecture 15:
 [List and Functional Programming](lecs/lec14.pdf)
 - [Lab 15](labs/Lab15.Rmd)
 
+Lecture 16
+[Data Frame: A Case Study](lecs/lec15.pdf)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
