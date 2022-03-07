@@ -89,7 +89,7 @@ Lecture 14:
 
 Lecture 15: 
 [List and Functional Programming](lecs/lec14.pdf)
-- [Lab 15](labs/Lab15.Rmd)
+- [Lab 15](labs/Lab15.Rmd), [solution](homework/sol15.Rmd)
 
 Lecture 16
 [Data Frame: A Case Study](lecs/lec15.pdf)
