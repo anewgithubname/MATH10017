@@ -93,6 +93,7 @@ Lecture 15:
 
 Lecture 16
 [Data Frame: A Case Study](lecs/lec15.pdf)
+- [Lab 16](labs/lab16.zip)
 
 ## Extra Learning Materials
 
