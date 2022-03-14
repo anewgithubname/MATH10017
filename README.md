@@ -91,10 +91,13 @@ Lecture 15:
 [List and Functional Programming](lecs/lec14.pdf)
 - [Lab 15](labs/Lab15.Rmd), [solution](homework/sol15.Rmd)
 
-Lecture 16
+Lecture 16:
 [Data Frame: A Case Study](lecs/lec15.pdf)
 - [Lab 16](labs/lab16.zip)
 - [Tutorial](lecs/tutorial6.pdf), [Tutorial Code](labs/tutorial6.zip)
+
+Lecture 17:
+[Object Oriented Programming in R](lecs/lec16.pdf)
 
 ## Extra Learning Materials
 
