@@ -93,8 +93,8 @@ Lecture 15:
 
 Lecture 16:
 [Data Frame: A Case Study](lecs/lec15.pdf)
-- [Lab 16](labs/lab16.zip)
-- [Tutorial](lecs/tutorial6.pdf), [Tutorial Code](labs/tutorial6.zip)
+- [Lab 16](labs/lab16.zip), [solution](homework/sol16.Rmd)
+- [Tutorial](lecs/tutorial6.pdf), [Tutorial Code](labs/tutorial6.zip), [solution](homework/tutorial6.R)
 
 Lecture 17:
 [Object Oriented Programming in R](lecs/lec16.pdf)

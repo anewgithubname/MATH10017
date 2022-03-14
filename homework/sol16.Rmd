@@ -1,0 +1,174 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Lab 16
+
+In machine learning, one common task is [regression analysis](https://en.wikipedia.org/wiki/Regression_analysis): using the input data, we predict the output. For example, doctors may want to use your age, weight, gender, etc. to predict your blood pressure. Lecturers may want to use your grades in the first two years to predict your last year's scores.
+
+Today, we will play with an astronomy dataset. It records the relative locations of stars in Galaxy NGC7531. We would like to use these location information to predict the velocity of stars.
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/dc/NGC_7531_GALEX_WikiSky.jpg){width="188"}
+
+Galaxy NGC7531, from Wikipedia.
+
+## Load data frame
+
+The data frame has been downloaded and processed for you. Run the following command to load the dataset.
+
+```{r}
+set.seed(1)
+galaxy <- read.table("galaxy")
+```
+
+Let us look at the summary of our dataset:
+
+```{r}
+dim(galaxy)
+summary(galaxy)
+```
+
+The data frame contains **323** observations and **5** columns. All entries are numeric. The last column is the velocity we want to predict. The first four columns are information used to express the relative positions of stars in a galaxy. More information on the dataset can be found [here](https://hastie.su.domains/ElemStatLearn/datasets/galaxy.info.txt).
+
+## Split Data
+
+Let us split the dataset into two parts: Training and testing. Training data contains **both input and output**. Testing dataset **only contains input**. **Our target is using the training dataset to make predictions for each observation in the testing dataset.** For example, in our TB1 project, $X$ and $Y$ matrices are our training dataset and $T$ is the testing dataset.
+
+In this task, the output is `velocity` while the inputs are the other 4 columns.
+
+First, let us randomly select 200 observations from `galaxy` and store them in a new data frame `train_data`.
+
+```{r}
+
+idx <- sample(1:323,200) # This produce a random integer vector, containing random integers sampled from sequence 1 to 323. 
+print(idx)
+
+# Your code here:
+train_data <- galaxy[idx,]
+dim(train_data)
+```
+
+Now, select the rest of the observations from `galaxy` and store them in a data frame `test_data`:
+
+```{r}
+# Do not include the 5th column (the output)!!!!
+# Your code here:
+test_data <- galaxy[-idx, -5]
+dim(test_data)
+```
+
+Let us create a vector `test_output`, storing the velocity data of the testing dataset (5th column).
+
+```{r}
+# Your code here:
+test_output <- galaxy[-idx, 5]
+```
+
+Now inspect your data frames from the environment pane. Do they have correct dimensions?
+
+## Standardize data
+
+Let us normalize our dataset inputs before making predictions.
+
+Write a function which takes one vector `v` as input and returns a standardized vector `s`:
+
+$$
+s = (v-\mu)/\sigma, 
+$$
+
+where $\mu$ is the mean of `v` and $\sigma$ is the standard deviation of `v`.
+
+```{r}
+standardize  <- function(v){
+  # Write your code here:
+  mu <- mean(v)
+  sigma <- sd(v)
+  v <- (v - mu)/sigma
+  return(v)
+}
+```
+
+Now test it on a toy vector:
+
+```{r}
+s <- standardize(1:4)
+summary(s)
+```
+
+Apply the `standardize` function to **each column** of `test_data`. Assign the result back to `test_data`.
+
+Hint: Use `apply` function.
+
+Hint: your code should look like `test_data <- data.frame(apply(…))`.
+
+```{r}
+# Write your code here:
+test_data <- data.frame(apply(test_data, 2, standardize))
+```
+
+Check the mean and standard deviation of each columns of `test_data`. Have they been successfully standardized?
+
+```{r}
+summary(test_data)
+```
+
+Now, apply `standardize` function to **the first 4 columns** of `train_data` and assign the result to a new variable `t1` (recall, the 5th column of the training dataset is the output. We do not want to standardize that!)
+
+```{r}
+# Write your code here:
+t1 <- data.frame(apply(train_data[,1:4], 2, standardize))
+```
+
+Combine `t1` with the 5th column in `train_data` and assign the result back to `train_data`.
+
+```{r}
+train_data <- cbind(t1, velocity=train_data[,5])
+```
+
+```{r}
+summary(train_data)
+```
+
+## Predict!
+
+Let us first introduce a prediction function. It predicts the output given a single input vector.
+
+The following function takes one input vector `x`, and produce a prediction of the velocity (can you tell how it works? see lecture slides).
+
+```{r}
+predict <- function(x){
+  dist <- c()
+  for(i in 1:dim(train_data)[1]){
+    dist[i] <- sqrt(sum((x - train_data[i,-5])^2))
+  }
+
+  nei <- order(dist)[1:5]
+  pred <- mean(train_data[nei,5])
+  
+  return(pred)
+}
+```
+
+Apply this function to **all the rows** in `test_data`. Store the result to a new column `pred` in `test_data`.
+
+```{r}
+# Write your code here:
+test_data$pred <- apply(test_data, 1, predict)
+test_data$pred 
+```
+
+Compute [the mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error)of your prediction.
+
+```{r}
+# Write your code here
+mean((test_data$pred - test_output)^2)
+```
+
+Compare it to the variance of the `test_output`.
+
+```{r}
+var(test_output)
+```
+
+Do you think knowing the starts' relative positions would help us predict their velocities? Why?
