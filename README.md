@@ -98,6 +98,7 @@ Lecture 16:
 
 Lecture 17:
 [Object Oriented Programming in R](lecs/lec16.pdf)
+[Lab 17](labs/lab17.zip)
 
 ## Extra Learning Materials
 
