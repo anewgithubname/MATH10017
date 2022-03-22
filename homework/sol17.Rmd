@@ -1,0 +1,166 @@
+---
+title: "Lab 17"
+output: html_document
+date: '2022-03-14'
+---
+
+# Lab 17
+
+In this lab, we will practice Object Oriented Programming (OOP) in R.
+
+First, let us have a look at `density` function in R. `density(x)` function returns **an object** representing the probability density function estimated from your dataset `x`.
+
+```{r}
+x <- rnorm(1000) # generate random samples from a standeard normal distribution
+d <- density(x) # estimate a density funciton from our data
+print(d) # print out some basic info of the denisty
+```
+
+Let us try to plot the density.
+
+```{r}
+plot(d)
+```
+
+How does it work? By using polymorphism (see lecture slides), the `plot` function recognizes you are trying to plot a density function and generates a density plot for you.
+
+## A Distribution Class
+
+Now let us implement something similar using OOP. We would like to create a `distribution` class. Objects in this class should **contain three variables**: a dataset of random samples, the mean and variance of the dataset. Below is an example:
+
+```{r}
+x <- rnorm(1000)
+distr <- list(dataset = x, mean = mean(x), variance = var(x))
+class(distr) <- "distribution"
+```
+
+Now write a function `distribution`, takes one input `x` containing your random samples and returns an **object** from the aforementioned `distribution` class.
+
+```{r}
+x <- rnorm(1000)
+distribution <- function(x){
+  # write your code here
+  distr <- list(dataset = x, mean = mean(x), variance = var(x))
+  class(distr) <- "distribution"
+  return(distr)
+}
+
+distr <- distribution(x)
+```
+
+Check the class of `distr` using `class` function.
+
+```{r}
+# your code here
+class(distr)
+```
+
+## Print Distribution
+
+If you type `print(distr)`, you will see a large amount of output occupying the whole screen. This is not nice! Let us write a print function that is more concise.
+
+Write `print` function that is **specific for** `distribution` **class**, so that if I type `print(distr`) I get the following output on the screen:
+
+"My dataset contains X observations, with mean Y and variance Z", where X, Y and Z are values depending on my dataset.
+
+**Hint:** Use `paste` function to concatenate strings and numbers.
+
+```{r}
+# Your code here
+print.distribution <- function(d){
+  print(paste("your dataset contains", length(d$dataset), "observations, with mean", d$mean, "and variance", d$variance))
+}
+
+print(distr)
+```
+
+## Gaussian Distirbution
+
+Now, let us construct an object for a new class `gaussian_distribution`, which **inherits from** `distribution`. Objects in `gaussian_distribution` contain all variables (dataset, mean and variance) in `distribution` class. They also contain two **additional variables**: `mu` and `sigma` corresponding to parameters in Gaussian distribution.
+
+For example, I can create an object from `gaussian_distribution` class using the following commands:
+
+```{r}
+distr <- list(dataset = x, mean = mean(x), variance = var(x))
+distr$mu <- distr$mean
+distr$sigma <- sqrt(distr$variance)
+class(distr) <- c("gaussian_distribution", "distribution")
+class(distr)
+```
+
+Now, write a function `gaussian_distribution` which takes an input `x` containing random samples in your dataset and returns an object from `gaussian_distribution` class.
+
+```{r}
+gaussian_distribution <- function(x){
+  #write your code here
+  distr <- distribution(x)
+  distr$mu <- distr$mean
+  distr$sigma <- sqrt(distr$variance)
+  class(distr) <- c("gaussian_distribution", "distribution")
+  return(distr)
+}
+
+distr <- gaussian_distribution(x)
+class(distr)
+```
+
+Since `gaussian_distribution` inherits from `distribution`, the `print` function we wrote for `distribution` class still works for objects from `gaussian_distribution`.
+
+```{r}
+print(distr)
+```
+
+Let us use polymorphism to change the behavior of `plot` function so that when I type `plot(distr)`, it will produce a Gaussian density plot estimated from my dataset.
+
+**Hint**: `dnorm(x,mu,sigma)` evaluates the density function of a Gaussian distribution with `mu` and `sigma` at position `x`. See `?dnorm` for more. Check out lecture14 for the usages of plotting functions.
+
+```{r}
+plot.gaussian_distribution <- function(d){
+  #generate numbers from -5, 5 with interval .1
+  x <- seq(-5,5,.1)
+  # write your code here  
+  y <- dnorm(x, d$mu, d$sigma)
+  plot(c(-5,5), c(-0,.5), type = "n")
+  lines(x,y)
+}
+
+plot(distr)
+```
+
+## Poisson Distribution
+
+Now, try it yourself.
+
+Create a function `poisson_distribution(x)` that construct an object from class `poisson_distribution` which **inherits from** `distribution`. Objects of `poisson_distribution` class contain all variables (dataset, mean and variance) in `distribution` class. They also contain **one** **additional variable:** `lambda`, the parameter of a Poisson distribution.
+
+**Hint:** How do you estimate `lambda` from your dataset?
+
+```{r}
+# write your code here 
+poisson_distribution <-  function(x){
+  d <- distribution(x)
+  d$lambda <- d$mean
+  class(d) <- c("poisson_distribution", "distribution")
+  return(d)
+}
+
+x <- rpois(1000,lambda =2)
+distr <- poisson_distribution(x)
+class(distr)
+```
+
+Use polymorphism to change the behavior of `plot` function so that when I type `plot(distr)`, it will produce a plot of Poisson **probability mass function** estimated from my dataset.
+
+**Hint:** Poisson probability mass function is a discrete function, not a continuous curve.
+
+```{r}
+# write your code here 
+plot.poisson_distribution <- function(d){
+  plot(c(0,10), c(0, .5), type="n")
+  x <- 0:10
+  y <- dpois(x, lambda = d$lambda)
+  points(x, y)
+}
+
+plot(distr)
+```
