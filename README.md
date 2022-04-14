@@ -102,6 +102,7 @@ Lecture 17:
 
 Lecture 18:
 [Integrating C with R](lecs/lec17.pdf)
+- [solution, R](homework/sol18.R), [solution, c++](homework/pdist5.cpp)
 
 Lecture 19: 
 [Final Project](lecs/lec18.pdf)
