@@ -107,6 +107,9 @@ Lecture 18:
 Lecture 19: 
 [Final Project](lecs/lec18.pdf)
 
+Lecture 20: 
+[Final Revision](lecs/revisionlecs.zip)
+
 ## Extra Learning Materials
 
 1. [The C Programming Language](https://www.amazon.co.uk/C-Programming-Language-2nd/dp/0131103628), Brian Kernighan and Dennis Ritchie. 
