@@ -109,7 +109,7 @@ Lecture 19:
 
 Lecture 20: 
 [Final Revision](lecs/revisionlecs.zip)
-- Underlined slides are examinable parts. 
+- Underlined slides related to exam questions.
 - Mock exam paper and answers have been distributed by an email. 
 
 ## Extra Learning Materials
