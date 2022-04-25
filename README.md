@@ -109,6 +109,7 @@ Lecture 19:
 
 Lecture 20: 
 [Final Revision](lecs/revisionlecs.zip)
+- Underlined slides are examinable parts. 
 
 ## Extra Learning Materials
 
